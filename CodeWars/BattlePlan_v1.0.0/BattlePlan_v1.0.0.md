@@ -7,9 +7,9 @@ In this simple assignment you are given a number and have to make it negative. B
 ### Examples
 
 ``` C#
-Kata.MakeNegative(1);  // return -1
-Kata.MakeNegative(-5); // return -5
-Kata.MakeNegative(0);  // return 0
+ReturnNegative.MakeNegative(1);  // return -1
+ReturnNegative.MakeNegative(-5); // return -5
+ReturnNegative.MakeNegative(0);  // return 0
 ```
 
 ### Notes
@@ -23,7 +23,7 @@ Complete the function that takes two integers (a, b, where a < b) and return an 
 
 ### For example
 
-``` C#
+```text
 a = 1
 b = 4
 --> [1, 2, 3, 4]
@@ -45,7 +45,7 @@ string[] Deck =
 };
 ```
 
-``` C#
+``` text
 DefineSuit("3♣") -> return "clubs"
 DefineSuit("3♦") -> return "diamonds"
 DefineSuit("3♥") -> return "hearts"
@@ -59,7 +59,7 @@ The start and the end number are both inclusive!
 
 Examples:
 
-``` C#
+``` text
 1,9 -> 1,2,3,4,6,7,8,9 -> Result 8
 4,17 -> 4,6,7,8,9,10,11,12,13,14,16,17 -> Result 12
 ```
@@ -78,7 +78,7 @@ The strings are actual quotes from Jaden Smith, but they are not capitalized in 
 
 Example:
 
-``` C#
+``` text
 Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 ```
@@ -93,10 +93,10 @@ Your task is to write a function maskify, which changes all but the last four ch
 
 Examples:
 
-``` C#
+``` text
 "4556364607935616" --> "############5616"
-        "64607935616" -->      "#######5616"
-                "1" -->                "1"
+     "64607935616" -->      "#######5616"
+               "1" -->                "1"
                 "" -->                 ""
 
 // "What was the name of your first pet?"
@@ -115,7 +115,7 @@ The conversion can be done before, or after the addition.
 
 The binary number returned should be a string.
 
-``` C#
+```text
 Examples:(Input1, Input2 --> Output (explanation)))
 
 1, 1 --> "10" (1 + 1 = 2 in decimal or 10 in binary)
@@ -144,7 +144,7 @@ the length of the control string. Don't reduce this fraction to a simpler expres
 
 The string has a length greater or equal to one and contains only letters from ato z.
 
-``` C#
+```text
 Examples:
 s="aaabbbbhaijjjm"
 printer_error(s) => "0/14"
@@ -159,7 +159,7 @@ Take 2 strings s1 and s2 including only letters from ato z.
 Return a new sorted string, the longest possible,
 containing distinct letters - each taken only once - coming from s1 or s2.
 
-``` C#
+```text
 Examples:
 a = "xyaabbbccccdefww"
 b = "xxxxyyyyabklmopq"
@@ -175,7 +175,7 @@ Write a function, persistence, that takes in a positive
 parameter num and returns its multiplicative persistence,
 which is the number of times you must multiply the digits in num until you reach a single digit.
 
-``` C#
+```text
 For example (Input --> Output):
 
 39 --> 3 (because 3*9 = 27, 2*7 = 14, 1*4 = 4 and 4 has only one digit)
@@ -206,7 +206,7 @@ Please tell me, what's the minimal steps?
 
 Example
 
-``` C#
+```text
 For x = 1, y = 8, the output should be 3.
 
 step  from   to      action
@@ -215,7 +215,7 @@ step  from   to      action
 3:     4 --> 8       double
 ```
 
-``` C#
+```text
 For x = 1, y = 17, the output should be 5.
 
 step  from    to      action
@@ -226,7 +226,7 @@ step  from    to      action
 5:     16 --> 17     forward
 ```
 
-``` C#
+```text
 For x = 1, y = 15, the output should be 6.
 
 step  from    to      action
@@ -238,7 +238,7 @@ step  from    to      action
 7:     14 --> 15     forward
 ```
 
-```C#
+```text
 For x = 3, y = 12, the output should be 2.
 
 step  from    to       action
@@ -247,7 +247,7 @@ step  from    to       action
 
 ```
 
-```C#
+```text
 For x = 3, y = 16, the output should be 3.
 
 step  from    to       action
